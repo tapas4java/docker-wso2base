@@ -4,9 +4,9 @@ Docker base Image for WSO2 Products
 
 The dockerfile will:
 
-* Copy `Java 1.8 zip` to /otp from Packages directory.
-* Unzip the Java 1.8 ZIP.
-* Setup `JAVA_HOME` Env variable.
+* Copy `JAVA 1.8 zip` to `/opt` from Packages directory.
+* Unzip the `Java 1.8 ZIP`.
+* Setup `JAVA_HOME` Environment variable.
 * Excecute `apt-get update`.
 
 ### Usage
